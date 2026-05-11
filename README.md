@@ -6,9 +6,9 @@ This project allows users to browse products, manage their cart, place orders on
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 👤 User Features
+## 👤 User Features
 - User Registration & Login
 - Role-Based Authentication
 - Browse Products
@@ -21,7 +21,7 @@ This project allows users to browse products, manage their cart, place orders on
 - Order History
 - Responsive User Interface
 
-### 🛠️ Admin Features
+## 🛠️ Admin Features
 - Add Products
 - Edit Products
 - Delete Products
@@ -33,7 +33,7 @@ This project allows users to browse products, manage their cart, place orders on
 
 ---
 
-## 💻 Technologies Used
+# 💻 Technologies Used
 - HTML
 - CSS
 - JavaScript
@@ -43,7 +43,8 @@ This project allows users to browse products, manage their cart, place orders on
 
 ---
 
-## 🔐 Authentication System
+# 🔐 Authentication System
+
 This project includes a Role-Based Authentication System:
 
 - Users can register, login, browse products, add items to cart, and place orders.
@@ -51,7 +52,7 @@ This project includes a Role-Based Authentication System:
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 ├── admin/              # Admin panel files
@@ -62,42 +63,79 @@ This project includes a Role-Based Authentication System:
 ├── products/           # Product pages
 ├── user/               # User dashboard & order history
 └── sql/                # Database files
+```
 
+---
 
-**Live Link:**
+# 🌐 Live Demo
+
 https://shinecart.22web.org
 
+---
 
-**▶️ How to Run the Project**
+# ▶️ How to Run the Project
 
-**Clone the Repository:**
-git clone https://github.com/faizafatima159-ctrl/ShineCart.git
-**Move to Server:**
-Copy project folder into XAMPP htdocs folder.
-**Start Services:**
-Open XAMPP Control Panel:
-Start Apache & MySQL
-**Import Database:**
-Open--localhost/phpmyadmin 
-Create database: ecommerce_db
-Import sql file from sql folder
+## 1️⃣ Clone the Repository
 
-Run in Browser:
+```bash
+git clone https://github.com/faizafatima159-ctrl/ShineCart-ecommerce
+```
+
+## 2️⃣ Move to Server
+
+Copy the project folder into XAMPP `htdocs` folder.
+
+## 3️⃣ Start Services
+
+Open XAMPP Control Panel and start:
+
+- Apache
+- MySQL
+
+## 4️⃣ Import Database
+
+- Open:
+  
+```text
+localhost/phpmyadmin
+```
+
+- Create database:
+
+```text
+ecommerce_db
+```
+
+- Import SQL file from the `sql` folder.
+
+## 5️⃣ Run in Browser
+
+```text
 http://localhost/ecommerce
+```
 
-**📸 Screenshots**
-<img width="1918" height="913" alt="ecommerce1" src="https://github.com/user-attachments/assets/82b448bb-5a9c-46c2-b6ee-6c5ddc9e609f" />
-<img width="1900" height="910" alt="ecommerce2" src="https://github.com/user-attachments/assets/2d8c04d4-f7b2-4594-997e-80682888c87a" />
-<img width="1918" height="912" alt="ecommerce3" src="https://github.com/user-attachments/assets/37c2a152-5ba9-4d8a-a285-dd06ec00ba3e" />
-<img width="1916" height="912" alt="ecommerce4" src="https://github.com/user-attachments/assets/730d743f-5bd3-4343-842d-082626ead4dd" />
+---
 
+# 📸 Screenshots
 
-**👩‍💻 Author**
+![Homepage](https://github.com/user-attachments/assets/82b448bb-5a9c-46c2-b6ee-6c5ddc9e609f)
 
-Faiza
+![Products](https://github.com/user-attachments/assets/2d8c04d4-f7b2-4594-997e-80682888c87a)
 
-Academic Project - Developed for learning and practicing Full-Stack E-commerce Development.
+![Cart](https://github.com/user-attachments/assets/37c2a152-5ba9-4d8a-a285-dd06ec00ba3e)
 
-**📌 Note**
+![Dashboard](https://github.com/user-attachments/assets/730d743f-5bd3-4343-842d-082626ead4dd)
+
+---
+
+# 👩‍💻 Author
+
+**Faiza**
+
+Academic Project — Developed for learning and practicing Full-Stack E-commerce Development.
+
+---
+
+# 📌 Note
 
 This project was developed for educational and practice purposes to improve Full-Stack Web Development and E-commerce management skills.
