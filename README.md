@@ -63,6 +63,11 @@ This project includes a Role-Based Authentication System:
 ├── user/               # User dashboard & order history
 └── sql/                # Database files
 
+
+**Live Link:**
+https://shinecart.22web.org
+
+
 **▶️ How to Run the Project**
 
 **Clone the Repository:**
